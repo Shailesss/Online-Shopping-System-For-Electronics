@@ -1,0 +1,122 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu img {
+     padding: 0.5%;
+     width: 8%;
+     float: left;
+}
+
+.menu {
+     padding: 0.5%;
+     text-align: center;
+     background-color: #fff;
+}
+
+.menu ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+}
+
+.menu ul li {
+     display: inline-block;
+     width: 150px;
+     text-align: center;
+     position: relative;
+}
+
+.menu ul ul {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+}
+
+.menu ul li:hover>ul {
+     display: inherit;
+}
+
+.menu ul li a {
+     display: block;
+     text-decoration: none;
+     color: blue;
+     padding: 18px 5px;
+     margin: 0.5px auto;
+     font-size: 18px;
+     font-weight: bold;
+
+}
+
+.menu ul li a:hover {
+     color: red;
+     border-radius: 5px;
+}
+
+.submenu li a {
+     background-color: #fff;
+     border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+     border-left: 1px solid grey;
+     border-right: 1px solid grey;
+}
+
+.menu ul ul ul {
+     left: 100%;
+     top: 0;
+}
+
+.center {
+     text-align: center;
+     padding: 3%;
+}
+
+.search {
+     background: #1B9CFC;
+     padding: 1%;
+     border-bottom: 2px solid black;
+}
+
+.search [type='search'] {
+     width: 40%;
+     text-align: center;
+     font-size: large;
+     padding: 0.5%;
+     border-radius: 10px;
+     border-color: aliceblue;
+}
+
+.search [type='submit'] {
+     text-align: center;
+     background-color: rgb(248, 162, 130);
+     font-size: large;
+     padding: 0.4%;
+     color: white;
+     border-radius: 5px;
+     border: 1px solid black;
+     cursor: pointer;
+}
+
+.search [type='submit']:hover {
+     background-color: orangered;
+}
+
+.footer {
+     font-size: large;
+     background-color: #3B3B98;
+     color: white;
+     border: 1px solid black;
+}
+
+#footer-text {
+     padding: 2%;
+     color: white;
+     text-align: justify;
+     font-family: Arial, Helvetica, sans-serif;
+     font: 200;
+     background-color: #3B3B98;
+}

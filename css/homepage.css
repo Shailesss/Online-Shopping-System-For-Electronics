@@ -1,0 +1,156 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content {
+     margin: auto 4%;
+}
+
+.error{
+     margin-left: 10px;
+     color: red;
+}
+
+
+.center {
+     text-align: center;
+}
+
+.color-red{
+     color: red;
+}
+
+
+.col3{
+     float: left;
+     padding: 2%;
+     margin: 1% 4.6%;
+     width: 20%;
+     background: linear-gradient(lightcoral,white);
+     border-radius: 5px;
+}
+
+.col3:hover{
+     transform: translateY(-10px);
+}
+.col3 img{
+     width:100%;
+     height: 320px;
+     padding: 1%;
+     border: 1px solid black;
+     background-color: white;
+}
+
+.col3 h3
+{
+     color: green;
+     font-weight: bold;
+}
+
+a .col3  h2
+{
+     font-size: 17px;
+     color: blue;
+     font-weight: bold;
+}
+
+.clear-fix
+{
+     float: none;
+     clear: both;
+}
+
+.linen-color
+{
+     background: radial-gradient(white,linen,rgb(244, 205, 165));
+     padding: 0;
+     margin: 0;
+}
+
+#err
+{
+     border: 15px double black;
+     padding: 2%;
+     background-color: aliceblue;
+}
+
+#p{
+     font-size: 30px;
+     font-weight: bold;
+     font-style: italic;
+}
+
+p{
+     font-family: calibri;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.main-content table th,td {
+     padding: 2%;
+}
+
+table{
+     width: 50%;
+     border: 1px solid red;
+     font-size: large;
+}
+
+table a{
+     text-decoration: none;
+     color: blue;
+}
+
+table a:hover{
+     color: red;
+}
+
+i a{
+     color: red;
+     text-decoration: none;
+     margin-left: 20px;
+}
+
+.image-3
+{
+     float: left;
+     max-height: 400px;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
+     width: 30%;
+     border-radius: 10px;
+     margin-left: 2.5%;
+     background-color: red;
+}
+
+.imgline
+{
+     padding: 2%;
+     background-color: whitesmoke;
+     height: 400px;
+}
+
+.btn-primary
+{
+     padding: 1%;
+     border: 3px solid black;
+     border-radius: 10px;
+     width: 50%;
+     background-color: orange;
+     text-decoration: none;
+     color: white;
+}
+
+.btn-primary:hover{
+     background-color: red;
+}
+
+.green{
+     color: green;
+}
+
+.red{
+     color: red;
+}

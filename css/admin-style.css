@@ -1,0 +1,249 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu and Footer CSS*/
+.footer {
+     bottom: 0;
+     padding: 2%;
+     font-size: large;
+     background-color: #ff4757;
+     color: white;
+     border: 1px solid black;
+}
+
+.text-center {
+     text-align: center;
+}
+
+.menu {
+     text-align: center;
+     background-color: #1e90ff;
+}
+
+.menu ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+}
+
+.menu ul li {
+     display: inline-block;
+     width: 150px;
+     text-align: center;
+     position: relative;
+}
+
+.menu ul ul {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+}
+
+.menu ul li:hover>ul {
+     display: inherit;
+}
+
+.menu ul li a {
+     display: block;
+     text-decoration: none;
+     color: #fff;
+     padding: 18px 5px;
+     margin: 0.5px auto;
+     font-size: 18px;
+     font-weight: bold;
+
+}
+
+.menu ul li a:hover {
+     color: #000;
+     border-radius: 5px;
+     background: #fff;
+}
+
+.menu li img{
+     margin-top: 10px;
+     float: left;
+}
+
+.submenu li a {
+     background-color: #1e90ff;
+     border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+     border-left: 1px solid grey;
+     border-right: 1px solid grey;
+}
+
+.menu ul ul ul {
+     left: 100%;
+     top: 0;
+}
+
+/*Main Content CSS*/
+.main-content {
+     margin: 0 4%;
+     padding: 2%;
+}
+
+.col-4 {
+     padding: 1%;
+     width: 16%;
+     margin: 1%;
+     background: radial-gradient(white, rgb(59, 188, 228), black);
+     float: left;
+}
+
+.clearfix {
+     float: none;
+     clear: both;
+}
+
+.wrapper {
+     width: 90%;
+     margin: 0 auto;
+     padding: 2% auto;
+     background: radial-gradient(white, lightblue);
+}
+
+a {
+     text-decoration: none;
+}
+
+h2 {
+     margin-left: 3%;
+}
+
+#dashboard-image {
+     background-color: #fff;
+     border: 1px solid black;
+}
+
+[type="text"],
+[type="file"] {
+     width: 80%;
+     padding: 1.5%;
+     margin: 1.2%;
+     font-family: Bookantiqua;
+     font-size: 20px;
+     text-align: center;
+     border-radius: 3px;
+}
+
+.form-align {
+     width: 80%;
+     padding: 2% 10%;
+     margin: 1% auto;
+     background-color: #e6e0e0;
+}
+
+.form-align td {
+     padding: 10px;
+}
+
+.btn-secondary {
+     width: 25%;
+     padding: 1.5%;
+     font-size: large;
+     color: #fff;
+     background-color: #7bed9f;
+     border-radius: 5px;
+     border: 1px solid #000;
+     cursor: pointer;
+}
+
+.btn-secondary:hover {
+     background-color: #2ed573;
+}
+
+.btn-primary {
+     width: 25%;
+     padding: 1.5%;
+     font-size: large;
+     color: #fff;
+     background-color: #70a1ff;
+     border-radius: 5px;
+     border: 1px solid #000;
+     cursor: pointer;
+}
+
+.btn-primary:hover {
+     background-color: #3742fa;
+}
+
+.btn-danger {
+     width: 25%;
+     padding: 1.5%;
+     font-size: large;
+     color: #fff;
+     background-color: #ff6b81;
+     border-radius: 5px;
+     border: 1px solid #000;
+     cursor: pointer;
+}
+
+.btn-danger:hover {
+     background-color: red;
+}
+
+.success {
+     color: green;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 5px;
+}
+
+.error {
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 5px;
+}
+
+.display-table {
+     width: 95%;
+     padding: 2% auto;
+     border-collapse: collapse;
+     margin: 0 auto;     
+     /*table-layout: fixed;*/
+}
+
+.fixed{
+     table-layout: fixed;
+}
+
+.display-table tr th {
+
+     padding: 0.7%;
+     text-transform: uppercase;
+     font-size: large;
+     border: 2px solid black;
+     border-collapse: collapse;
+}
+
+.display-table tr td {
+     padding: 0.7%;
+     border-bottom: #000 2px solid;
+     font-size: large;
+}
+
+.display-table tr:nth-child(odd) {
+     background-color: skyblue;
+}
+
+.display-table tr td img {
+     width: 95px;
+}
+
+.display-table tr td a {
+     text-decoration: none;
+     padding: 5px;
+}
+
+.color-white {
+     color: #fff;
+     font-size: 30px;
+}

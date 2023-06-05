@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+.wrapper {
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*CSS FOR MENUBAR*/
+.menu {
+  background-color: white;
+}
+
+.menu img {
+  padding: 1%;
+  width: 8%;
+  float: left;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+  margin: 1%;
+  padding: 1%;
+  color: rgb(28, 28, 197);
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/*CSS FOR SEARCHING PRODUCT */
+.search-item {
+  background: linear-gradient(purple, indigo, blue, green, yellow, orange, red);
+  background-attachment: fixed;
+  padding: 3%;
+}
+
+.search-item form input[type='search'] {
+  width: 50%;
+  height: 40px;
+  font-size: large;
+  border: 2px solid black;
+  padding: 0.5%;
+  border-radius: 5px;
+}
+
+.search-item form button {
+  width: 8%;
+  height: 40px;
+  border: 2px solid black;
+  padding: 1%;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+}
+
+.search-item form button:hover {
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: orange;
+}
+
+/* CSS FOR FOOTER */
+.footer {
+  font-size: large;
+  background-color: #3B3B98;
+  color: white;
+  border: 1px solid black;
+}
+
+#footer-text {
+  padding: 2%;
+  color: white;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 200;
+  background-color: indigo;
+}
+
+/*CSS FOR MAIN CONTENT*/
+.main-content {
+  padding: 2%;
+  background: radial-gradient(white, rgb(235, 200, 166));
+}
+
+.col3 img {
+  width: 100%;
+  height: 300px;
+}
+
+.col3 {
+  border-radius: 10px;
+  width: 27%;
+  padding: 2%;
+  margin: 1%;
+  float: left;
+  background-color: white;
+}
+
+.main-content h1 {
+  color: #ff4757;
+}
+
+.col3 h2 {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.col3 h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: BookAntiqua;
+  color: green;
+}
+
+
+.new-arrival {
+  padding: 2%;
+  background: radial-gradient(white, rgb(235, 233, 233));
+}
+
+
+.wrapper div a {
+  text-decoration: none;
+
+}
+
+
+
+.wrapper #image:hover {
+  transform: translateY(-7px);
+  /*background: linear-gradient(silver, white);*/
+}
